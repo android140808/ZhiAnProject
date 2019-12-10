@@ -19,7 +19,7 @@ import static org.junit.Assert.*;
 public class ExampleInstrumentedTest {
     @Test
     public void useAppContext() {
-        // Context of the app under test.
+        // Context of the share_sp_name under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
         assertEquals("cn.avater.zhian.pedometer", appContext.getPackageName());
